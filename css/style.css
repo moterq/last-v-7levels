@@ -1,0 +1,32 @@
+@import url(header.css);
+@import url(menu.css);
+@import url(about.css);
+@import url(blog.css);
+@import url(sliders.css);
+@import url(media.css);
+@import url(sevenlevels.css);
+@import url(users.css);
+@import url(personal.css);
+@import url(footer.css);
+
+.body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+p{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.project {
+    margin: -0px;
+    margin-bottom: ;
+    padding: -8px;
+    background: url(../img/7level-1170.png)no-repeat center ;
+    background-size: cover;
+    height: auto;
+
+    border: 0;
+}
+

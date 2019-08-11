@@ -1,0 +1,214 @@
+/*************SLIDER PERSONAL****************************/
+/*************SLIDER PERSONAL****************************/
+/*************SLIDER CLIENTS****************************/
+/*************SLIDER CLIENTS****************************/
+/*************SLIDER BLOG****************************/
+/*************SLIDER BLOG****************************/
+
+.pack {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 5%;
+
+}
+
+.pack h1 {
+    font-size: 45pt;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.pack p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    color: #c4cde5;
+    margin-top: 0;
+    font-size: 30pt;
+    padding: 0 15px;
+}
+
+#picc {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8%;
+    margin-top: 1%;
+
+}
+
+#picc h3 {
+    font-size: 45pt;
+    opacity: 0.5;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+
+}
+
+
+#pic {
+    width: 900px;
+    height: auto;
+    z-index: 1;
+}
+
+#pic1 {
+    width: 900px;
+    z-index: 1;
+}
+
+#pic2 {
+    width: 900px;
+    z-index: 1;
+}
+
+#picc img {
+    width: 80px;
+    height: 60px;
+    margin-right: px;
+    margin-top: ;
+}
+
+.butp {
+    background: linear-gradient(to right, #9c3557, #f94d50);
+    margin-top: 0px;
+    border: 0;
+    z-index: 2;
+    margin-right: -5%;
+    height: 50%;
+}
+
+.butn {
+    background: linear-gradient(to right, #9c3557, #f94d50);
+    border: 0;
+    margin-top: 0px;
+    margin-left: -5%;
+    z-index: 2;
+    height: 50%;
+
+}
+
+#pic .textflex img {
+    width: 900px;
+    height: auto;
+}
+
+
+.cards {
+    display: none;
+}
+
+
+.block-cards {
+    display: none;
+}
+
+.second-pack {
+    height: 500px;
+}
+
+.second-bbt {
+    margin-top: 400px;
+    margin-left: 280px;
+    width: 40%;
+    display: block;
+}
+
+.bbbt {
+    display: block;
+    margin-left: 280px;
+    margin-top: -60px;
+    width: 40%;
+}
+
+.pack button {
+    padding: 35px 45px 35px 45px;
+    font-size: 50px;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.qwer {
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.textlol {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1%;
+    padding-left: 1%;
+
+}
+
+.button-q {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 70%;
+    border-radius: 40px;
+    padding: 15px 0 15px 0;
+    font-size: 30px;
+    float: ;
+    border: 5px solid #a93856;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-q:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#822540+0,f94d.. */
+    background: #822540;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #822540 0%, #f94d50 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #822540 0%, #f94d50 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #822540 0%, #f94d50 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#822540', endColorstr='#f94d50', GradientType=1);
+    /* IE6-9 */
+}
+
+.button-q img {
+    width: 17px;
+    margin-left: 10px;
+}
+
+.team h2 {
+    font-size: 65pt;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.team h4 {
+    color: #fff;
+    opacity: 0.1;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 50pt;
+}
+
+/*************SLIDER PERSONAL****************************/
+/*************SLIDER PERSONAL****************************/
+/*************SLIDER CLIENTS****************************/
+/*************SLIDER CLIENTS****************************/
+/*************SLIDER BLOG****************************/
+/*************SLIDER BLOG****************************/

@@ -1,0 +1,71 @@
+.user {
+    margin-top: 5%;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+.cards {
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+
+
+.inf-card {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+.informat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eye {
+    width: 30px;
+    height: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.inf-card h3 {
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.user h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 50px;
+    margin: 0;
+}
+
+.user h2 {
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: 0.4;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.user-inf {
+    display: inline;
+}
+
+.bbbrr {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.bbbrr h2{
+    font-size: 19px;
+    margin-top: 7px;
+}

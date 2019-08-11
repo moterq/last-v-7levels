@@ -1,0 +1,43 @@
+.prsonal {
+    margin-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.per {
+    display: flex;
+    flex-basis: 20%;
+}
+
+.prsonal h1 {
+    font-size: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.per h1 {
+    font-size: 20px;
+}
+
+.per p {
+    color: #ffffff;
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+.pers {
+    flex: 1;
+    margin-right: 10px;
+}
+
+
+
+.pers-button {
+    display: flex;
+    justify-content: center;
+}
+
+.prsonal a {
+    text-decoration: none;
+}
+

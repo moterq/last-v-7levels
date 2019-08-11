@@ -1,0 +1,100 @@
+/*************HEADER VIDEO HEADER****************************/
+
+
+.title {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    position: ;
+    z-index: 0;
+}
+
+.worked320 {
+    display: none;
+}
+
+.worked {
+    width: 80%;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 20%
+}
+
+@media only screen and (max-width: 365px) {
+
+    .worked {
+        display: none;
+    }
+
+    .worked320 {
+        display: block;
+        width: 30%;
+        height:
+            /*15.5%*/
+        ;
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 35%
+    }
+
+    .title {
+        margin: 0px;
+        height: ;
+        width: ;
+        /* 200%*/
+        position: ;
+        z-index: 0;
+    }
+}
+
+/****************************************/
+/*.title h2{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 17.8%;
+    margin-left: 26%;
+    color: white;
+    display: block;
+    position: absolute;
+    z-index: 10;
+    color: white;
+    text-transform: uppercase;
+    font-size: 100px;
+
+
+}
+
+.title h3{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 17.8%;
+    margin-left: 55%;
+    color: white;
+    display: block;
+    position: absolute;
+    z-index: 10;
+    text-transform: uppercase;
+    opacity: 0.09;
+    font-size: 100px;
+    text-align: ;
+}
+
+
+.title h4{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 27%;
+    margin-left: 26%;
+    color: white;
+    display: block;
+    position: absolute;
+    z-index: 10;
+    text-transform: uppercase;
+    font-size: 100px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #9e3657 33%, #d44353 66%, #f94d50);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+
+} */
+
+
+/*************HEADER VIDEO HEADER****************************/

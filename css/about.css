@@ -1,0 +1,188 @@
+/************************ PC_ABOUT PC_ABOUT PC_ABOUT ************************/
+
+.flex-container {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: row;
+    padding-top: 5%;
+
+}
+
+.texttest {
+    color: white;
+    flex-basis: 40%;
+}
+
+.texttest h1 {
+    font-size: 40pt;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+.texttest p {
+    font-size: 11pt;
+
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    color: #c4cde5;
+    padding-bottom: 20px;
+        font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.texttest h3 {
+    font-size: 15pt;
+    padding: 10px 0px 15px 0px;
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+.phototest {
+    display: flex;
+    width: ;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.photoabout {
+    width: 400px;
+    margin-top: -20%;
+
+}
+
+.button-a {
+    width: 90%;
+
+}
+
+.button {
+    display: ;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    border: 0px;
+    margin-top: 5%;
+    width: 90%;
+    border-radius: 40px;
+    padding: 15px 0 15px 0;
+    font-size: 18px;
+    float: left;
+    border: 2px solid #a93856;
+
+}
+
+.button:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#822540+0,f94d.. */
+    background: #822540;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #822540 0%, #f94d50 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #822540 0%, #f94d50 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #822540 0%, #f94d50 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#822540', endColorstr='#f94d50', GradientType=1);
+    /* IE6-9 */
+}
+
+.button img {
+    width: 10px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .flex-container {
+        flex-direction: row;
+        padding-left: 10%;
+        padding-right: 10%;
+
+    }
+
+
+    .texttest {
+        color: white;
+        flex-basis: 40%;
+    }
+
+    .texttest h1 {
+        font-size: 40pt;
+        padding: 0;
+        margin: 0;
+    }
+
+    .texttest p {
+        font-size: 12px;
+        font-weight: 100;
+        padding: 0;
+        margin: 0;
+        opacity: 0.8;
+        padding-bottom: 10px
+    }
+
+    .texttest h3 {
+        font-size: 20pt;
+        padding: 10px 0px 10px 0px;
+        margin: 0;
+        text-transform: uppercase;
+
+    }
+
+    .phototest {
+        display: flex;
+        width: ;
+        flex-basis: 50%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .photoabout {
+        width: 350px;
+    }
+}
+
+/* */
+
+.button-a {
+    display: ;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    border: 0px;
+    margin-top: 5%;
+    width: 90%;
+    border-radius: 40px;
+    padding: 15px 0 15px 0;
+    font-size: 18px;
+    float: left;
+    border: 2px solid #a93856;
+
+}
+
+.button-a:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#822540+0,f94d.. */
+    background: #822540;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #822540 0%, #f94d50 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #822540 0%, #f94d50 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #822540 0%, #f94d50 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#822540', endColorstr='#f94d50', GradientType=1);
+    /* IE6-9 */
+}
+
+.button-a img {
+    width: 10px;
+    margin-left: 10px;
+}
+
+/************************ PC_ABOUT PC_ABOUT PC_ABOUT ************************/

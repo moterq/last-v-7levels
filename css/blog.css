@@ -1,0 +1,135 @@
+/************************ PC_BLOG PC_BLOG PC_BLOG ************************/
+.button-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    width: 90%;
+}
+.flex-blog {
+    display: flex;
+    flex-direction: row;
+    align-items: ;
+    justify-content: space-between;
+    align-content: space-between;
+        padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    flex: ;
+}
+
+.imgblog {
+    width: 310px;
+}
+
+.blog-section {
+    flex-basis: 0;
+
+}
+
+.blog h2 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40pt;
+    text-transform: uppercase;
+    padding-left: 15%;
+    padding-top: 5%;
+    margin: 0;
+}
+
+.flex-blog h4 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15pt;
+}
+
+.flex-blog p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12px;
+    color: #c4cde5;
+}
+
+.blog-two {
+    align-items: flex-end;
+    margin-top: 5%;
+    margin-left: 2%;
+
+}
+
+.blog-three {
+    margin-left: 2%;
+
+}
+
+
+@media only screen and (max-width: 1080px) {
+    .flex-blog {
+        display: flex;
+        flex-direction: row;
+        align-items: ;
+        justify-content: space-between;
+        align-content: space-between;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+    }
+
+    .imgblog {
+        height: 250px;
+        width: 250px;
+    }
+
+    .blog-section {
+        flex-basis: 0;
+
+    }
+
+    .blog h2 {
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-size: 40pt;
+        text-transform: uppercase;
+        padding-left: 10%;
+        padding-top: 5%;
+        margin: 0;
+    }
+
+    .flex-blog h4 {
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        font-size: 20pt;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .flex-blog p {
+        font-size: 12px;
+        color: #c4cde5;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .blog-two {
+        align-items: flex-end;
+        margin-top: 5%;
+        margin-left: 2%;
+
+    }
+
+    .blog-three {
+        margin-left: 2%;
+
+    }
+
+    .button-b {
+        width: 90%;
+        font-family: 'Oswald', sans-serif;
+        margin-top: 5%;
+        padding-top: ;
+    }
+}
+
+/************************ PC_BLOG PC_BLOG PC_BLOG ************************/

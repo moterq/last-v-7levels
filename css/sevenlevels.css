@@ -1,0 +1,278 @@
+.seven-levels {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.levels {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 33%;
+}
+
+.paragraf {}
+
+.levels-img {
+    float: left;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    width: 90%;
+    border: 10px solid #a93856;
+    border-radius: 90%;
+    z-index: 2;
+}
+
+.levels-img h1 {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #9c3557, #f94d50);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    text-align: center;
+
+    margin-top: 0;
+}
+
+@media screen and (min-width: 1351px) {
+    .levels-img h1 {
+        padding-top: 85px;
+        font-size: 35px;
+    }
+
+    .levels-img h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 22px;
+    opacity: 0.4;
+    color: #ffffff;
+    }
+}
+
+.levels-img h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 22px;
+    opacity: 0.4;
+    color: #ffffff;
+}
+
+.paragraf {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.paragraf h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.paragraf h2 {
+    text-transform: uppercase;
+    margin: 0;
+    color: #ffffff;
+}
+
+.paragraf p {
+    color: #d4d7e4;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.par-1 h1 {
+    background: linear-gradient(to right, #9c3557, #f94d50);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.par-2 h1 {
+    background: linear-gradient(to right, #ff8519, #ff6c00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.par-3 h1 {
+    float: left;
+    background: linear-gradient(to right, #ffdc62, #ffa801);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.par-6 h1 {
+    background: linear-gradient(to right, #000dbd, #0032ed);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.par-7 h1 {
+    background: linear-gradient(to right, #9600b9, #e101d4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.par-5 h1 {
+    background: linear-gradient(to right, #0773d8, #00c9fe);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.par-4 h1 {
+    background: linear-gradient(to right, #05c200, #3d8b1e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.par-2 {
+    margin-top: 120px;
+}
+
+.par-3 {
+    margin-left: 30px;
+}
+
+.par-5 {
+    margin-left: -20px;
+}
+
+.par-6 {
+    margin-left: -20px;
+}
+
+.par-7 {
+    margin-top: 170px;
+    margin-left: -20px;
+}
+
+/*********************8buttons************/
+
+.button {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    border: 0px;
+    margin-top: 48px;
+
+    border-radius: 40px;
+    padding: 15px 0 15px 0;
+    font-size: 18px;
+    float: left;
+    border: 2px solid #a93856;
+
+}
+
+.button:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#822540+0,f94d.. */
+    background: #822540;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #822540 0%, #f94d50 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #822540 0%, #f94d50 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #822540 0%, #f94d50 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#822540', endColorstr='#f94d50', GradientType=1);
+    /* IE6-9 */
+}
+
+.button img {
+    width: 8px;
+    margin-left: 10px;
+}
+
+.levels-button {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    border: 0px;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 20px;
+    width: 70.88%;
+    border-radius: 40px;
+    padding: 20px 0 20px 0;
+    font-size: 18px;
+    float: left;
+    border: 2px solid #a93856;
+}
+
+.levels-button img {
+    max-width: 9px;
+    padding-left: 5px;
+}
+
+.levels-button:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#822540+0,f94d.. */
+    background: #822540;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #822540 0%, #f94d50 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #822540 0%, #f94d50 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #822540 0%, #f94d50 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#822540', endColorstr='#f94d50', GradientType=1);
+    /* IE6-9 */
+}
+
+.pers-button {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 0px;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 20px;
+    width: 33%;
+    border-radius: 40px;
+    padding: 15px 0 15px 0;
+    font-size: 18px;
+    border: 2px solid #a93856;
+    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.pers-button img {
+    width: 10px;
+    height: 15px;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+
+.pers-button:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#822540+0,f94d.. */
+    background: #822540;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #822540 0%, #f94d50 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #822540 0%, #f94d50 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #822540 0%, #f94d50 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#822540', endColorstr='#f94d50', GradientType=1);
+    /* IE6-9 */
+}
