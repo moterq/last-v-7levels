@@ -227,12 +227,12 @@ label {
         cursor: pointer;
         z-index: 1000;
         float: right;
-        padding-left: 95%;
+        padding-left: 96%;
         padding-top: 5%;
         background: transparent;
         padding-bottom: 0px;
         z-index: 100;
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.5);
         font-size: 700%;
         height: 125px;
 
@@ -249,7 +249,7 @@ label {
         position: fixed;
         z-index: 1000;
         padding: 0;
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.5);
 
 
     }
