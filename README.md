@@ -1,2 +1,0 @@
-# moterq.github.io
-testsite
