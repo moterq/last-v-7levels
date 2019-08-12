@@ -528,13 +528,13 @@ label {
 
     }
 
-    .logo1{
+    .logo1 {
         width: 80px;
     }
 
 
 
-     select {
+    select {
         background: transparent;
         color: white;
         float: none;
