@@ -220,7 +220,7 @@ label {
 }
 
 
-@media only screen and (max-device-width: 1209px) {
+@media only screen and (max-device-width: 1109px) {
     label {
         display: block;
         position: fixed;
@@ -242,9 +242,9 @@ label {
         text-align: center;
         width: 100%;
         display: none;
-        margin-top: 174.5px;
+        margin-top: 174.7px;
         overflow: scroll;
-        height: 100%;
+        height: 90%;
         /*506.5px*/
         position: fixed;
         z-index: 1000;
@@ -322,23 +322,23 @@ label {
     }
 
     .imgsoc {
-        width: 30px
+        width: 40px
     }
 
     .imgsocviber {
-        width: 25px;
+        width: 35px;
     }
 
     .imgsoci {
-        width: 25px;
+        width: 35px;
     }
 
     .imgsocf {
-        width: 20px;
+        width: 27px;
     }
 
     .imgsocvk {
-        width: 35px;
+        width: 50px;
 
     }
 
@@ -483,7 +483,7 @@ label {
 /************************ MAIN-MENU by Moter ************************/
 
 
-@media screen and (min-device-width: 605px) and (max-device-width: 1209px) {
+@media screen and (min-device-width: 605px) and (max-device-width: 1109px) {
     label {
         display: block;
         position: fixed;
@@ -505,9 +505,9 @@ label {
         text-align: center;
         width: 100%;
         display: none;
-        margin-top: 174.5px;
+        margin-top: 125.1px;
         overflow: scroll;
-        height: 100%;
+        height: 90%;
         /*506.5px*/
         position: fixed;
         z-index: 1000;
@@ -524,11 +524,89 @@ label {
         z-index: 1000;
         padding: 0;
         margin: ;
-        font-size: 25pt;
+        font-size: 15pt;
 
     }
-    .logo1 {
-        width: 85px;
-        display: ;
+
+    .logo1{
+        width: 80px;
     }
+
+
+
+     select {
+        background: transparent;
+        color: white;
+        float: none;
+        border-color: transparent;
+
+        height: 60px;
+    }
+
+    .sel {
+        background-color: ;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .socsites1 {
+        float: none;
+        border: 0;
+        padding-top: 70px;
+        margin-bottom: -5%;
+        margin-right: 10%;
+    }
+
+    .socsites1 a {
+        float: ;
+        display: inline-block;
+        border: transparent;
+        margin-left: 3%;
+        padding-left: 3%;
+        padding-top: 20px;
+        float: none;
+        margin-top: 0px;
+
+
+    }
+
+    .imgsoc {
+        width: 30px
+    }
+
+    .imgsocviber {
+        width: 25px;
+    }
+
+    .imgsoci {
+        width: 25px;
+    }
+
+    .imgsocf {
+        width: 20px;
+    }
+
+    .imgsocvk {
+        width: 35px;
+
+    }
+
+    .socsites {
+
+        display: inline;
+        margin-bottom: ;
+        padding-left: ;
+        margin-top: 0;
+        float: none;
+        border: 0;
+    }
+
+
+
+
+    /**/
+
+
+
+
 }
