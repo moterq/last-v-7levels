@@ -220,18 +220,21 @@ label {
 }
 
 
-@media only screen and (max-width: 1209px) {
+@media only screen and (max-device-width: 1209px) {
     label {
         display: block;
         position: fixed;
         cursor: pointer;
         z-index: 1000;
         float: right;
-        padding-left: 99%;
+        padding-left: 95%;
+        padding-top: 5%;
         background: transparent;
         padding-bottom: 0px;
         z-index: 100;
         background-color: rgba(0, 0, 0, 0.4);
+        font-size: 700%;
+        height: 125px;
 
     }
 
@@ -239,7 +242,7 @@ label {
         text-align: center;
         width: 100%;
         display: none;
-        margin-top: 80px;
+        margin-top: 174.5px;
         overflow: scroll;
         height: 100%;
         /*506.5px*/
@@ -247,6 +250,7 @@ label {
         z-index: 1000;
         padding: 0;
         background-color: rgba(0, 0, 0, 0.4);
+
 
     }
 
@@ -257,7 +261,7 @@ label {
         z-index: 1000;
         padding: 0;
         margin: ;
-        font-size: 20pt;
+        font-size: 25pt;
 
     }
 
@@ -286,6 +290,7 @@ label {
         color: white;
         float: none;
         border-color: transparent;
+
         height: 60px;
     }
 
@@ -348,8 +353,9 @@ label {
     }
 
     .logo1 {
-        width: 50px;
+        width: 132px;
         display: block;
+        margin-top: 11px;
 
     }
 
@@ -396,6 +402,10 @@ label {
         display: block;
     }
 
+    .menu:checked + .menu a {
+        display: none;
+    }
+
     ::-webkit-scrollbar {
         /* chrome based */
         width: 0px;
@@ -415,7 +425,7 @@ label {
 
 }
 
-@media only screen and (max-width: 365px) {
+@media only screen and (max-device-width: 365px) {
 
     .socsites1 {
         float: none;
@@ -430,7 +440,7 @@ label {
         float: ;
         display: inline-block;
         border: transparent;
-        padding-left: 5%;
+        padding-left: 3%;
         padding-top: 20px;
         float: none;
         margin-top: 0px;
@@ -439,23 +449,23 @@ label {
     }
 
     .imgsoc {
-        width: 25px
+        width: 45px
     }
 
     .imgsocviber {
-        width: 20px;
+        width: 45px;
     }
 
     .imgsoci {
-        width: 20px;
+        width: 45px;
     }
 
     .imgsocf {
-        width: 15px;
+        width: 35px;
     }
 
     .imgsocvk {
-        width: 30px;
+        width: 60px;
 
     }
 
@@ -471,3 +481,54 @@ label {
 }
 
 /************************ MAIN-MENU by Moter ************************/
+
+
+@media screen and (min-device-width: 605px) and (max-device-width: 1209px) {
+    label {
+        display: block;
+        position: fixed;
+        cursor: pointer;
+        z-index: 1000;
+        float: right;
+        padding-left: 96%;
+        padding-top: 2%;
+        background: transparent;
+        padding-bottom: 0px;
+        z-index: 100;
+        background-color: rgba(0, 0, 0, 0.4);
+        font-size: 400%;
+        height: 105px;
+
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+        margin-top: 174.5px;
+        overflow: scroll;
+        height: 100%;
+        /*506.5px*/
+        position: fixed;
+        z-index: 1000;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+
+
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: 1px solid white;
+        position: relative;
+        z-index: 1000;
+        padding: 0;
+        margin: ;
+        font-size: 25pt;
+
+    }
+    .logo1 {
+        width: 85px;
+        display: ;
+    }
+}

@@ -20,7 +20,7 @@
     margin-left: 20%
 }
 
-@media only screen and (max-width: 365px) {
+@media only screen and (max-width: 600px) {
 
     .worked {
         display: none;
@@ -39,12 +39,17 @@
 
     .title {
         margin: 0px;
-        height: ;
-        width: ;
+        height: 100%;
+        width: 100%;
         /* 200%*/
         position: ;
         z-index: 0;
     }
+
+    .mpfour {
+        max-width: 500px;
+    }
+
 }
 
 /****************************************/

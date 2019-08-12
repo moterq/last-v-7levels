@@ -36,6 +36,10 @@
 
     margin-top: 0;
 }
+.levels-img h2{
+    font-size: px;
+
+}
 
 @media screen and (min-width: 1351px) {
     .levels-img h1 {
@@ -59,6 +63,7 @@
     margin-top: 22px;
     opacity: 0.4;
     color: #ffffff;
+    font-size: 14px
 }
 
 .paragraf {
